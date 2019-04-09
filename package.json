@@ -72,5 +72,8 @@
     }
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "date-and-time": "^0.6.3",
+    "dateformat": "^3.0.3"
+  }
 }
