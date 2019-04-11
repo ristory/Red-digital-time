@@ -79,7 +79,7 @@ describe('Digital time', () => {
     });
 
     describe('Add & subtract minutes', () => {
-      xtest('add minutes', () => {
+      test('add minutes', () => {
         expect(at(10, 0).plus(3).toString()).toEqual('10:03');
       });
 
