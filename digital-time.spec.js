@@ -1,5 +1,6 @@
 import { at } from './digital-time';
 import { plus } from './digital-time';
+
 describe('Digital time', () => {
   describe('Initial creation and string representation', () => {
     test('on the hour', () => {
